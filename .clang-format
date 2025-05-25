@@ -1,0 +1,37 @@
+---
+BasedOnStyle: LLVM
+AccessModifierOffset: '-4'
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: 'false'
+AlignConsecutiveDeclarations: 'false'
+AllowShortBlocksOnASingleLine: 'false'
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: 'false'
+AllowShortLoopsOnASingleLine: 'false'
+AlwaysBreakBeforeMultilineStrings: 'true'
+AlwaysBreakTemplateDeclarations: 'true'
+BreakBeforeBraces: Allman
+BreakBeforeBinaryOperators: All
+BreakBeforeConceptDeclarations: 'true'
+ColumnLimit: '100'
+ConstructorInitializerAllOnOneLineOrOnePerLine: 'true'
+Cpp11BracedListStyle: 'false'
+ForEachMacros: ['RANGES_FOR', 'FOREACH', 'foreach']
+IndentWidth: '4'
+Language: Cpp
+MaxEmptyLinesToKeep: '1'
+PenaltyBreakBeforeFirstCallParameter: '100'
+PenaltyBreakComment: '100'
+PenaltyBreakFirstLessLess: '100'
+PenaltyBreakString: '100'
+PointerAlignment: Right
+SpaceBeforeAssignmentOperators: 'true'
+SpaceBeforeParens: ControlStatements
+SpacesInAngles: 'false'
+SpacesInCStyleCastParentheses: 'false'
+Standard: c++20
+TabWidth: '4'
+UseTab: Never
+RequiresClausePosition: 'WithFollowing'
+IndentRequiresClause: 'false'
+...
